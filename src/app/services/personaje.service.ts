@@ -28,7 +28,7 @@ export interface Personaje {
 })
 export class PersonajeService {
 
-  private apiUrl = 'https://rickandmortyapi.com/api/character/441';
+  private apiUrl = 'https://rickandmortyapi.com/api/character/182';
 
   constructor(private http: HttpClient) {}
 
